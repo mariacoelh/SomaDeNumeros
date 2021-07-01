@@ -1,0 +1,79 @@
+*{
+  font-family: Verdana, Tahoma, sans-serif
+}
+div{      
+  text-align: center;  
+  background-color: rgb(32, 43, 94);
+  width: 300px;
+  height: 180px;    
+  padding-top: 1px;
+}
+h3{
+  color: white;
+  font-weight: bolder;
+}
+.num1{
+  background-color: rgb(178, 189, 251);
+  color: white;    
+  text-align: center;
+  font-size: 17px;
+  border:none;
+  border-radius: 3px;    
+  border-style: solid;
+  border-color: rgb(178, 189, 251);;
+  width: 90px;
+  height: 30px;  
+  margin-right: 4px;  
+  box-sizing: border-box;
+  padding-left: 20px;
+
+}
+.num1:hover{    
+  border-color: rgb(92, 172, 194);
+}    
+.num2{
+  background-color:rgb(178, 189, 251);
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  border:none;
+  border-radius: 3px;   
+  border-style: solid;
+  border-color: rgb(178, 189, 251);
+  width: 90px;
+  height: 30px;
+  margin-left: 4px;
+  box-sizing: border-box;    
+  padding-left: 20px;
+}
+.num2:hover{
+  border-color:rgb(92, 172, 194);
+}    
+.button{
+  background-color: 	rgb(49, 98, 231);
+  color: white;
+  width: 60px;
+  height: 25px;       
+  border:none;
+  border-radius: 5px;    
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;      
+  margin-left: 124px;
+  margin-top: 10px;
+  display: flex;   
+  box-sizing: border-box;
+  justify-content: center;
+  font-size: 20px;
+}    
+.button:hover{
+  border-color: white;
+  border-style: solid;
+}
+.soma{
+  background-color:  rgb(32, 43, 94);
+  color: white;
+  font-size: large;
+  border:none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
